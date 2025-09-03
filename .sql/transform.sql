@@ -31,4 +31,3 @@ COPY agg_region TO 'out/agg_region.csv' (HEADER, DELIMITER ',');
 
 COPY agg_product TO 'out/agg_product.parquet' (FORMAT PARQUET);
 COPY agg_product TO 'out/agg_product.csv' (HEADER, DELIMITER ',');
-transform.sql
